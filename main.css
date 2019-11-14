@@ -1,0 +1,193 @@
+body{
+	width:100%;
+	height: 1450px;
+	background-image: linear-gradient(180deg,#21213C, #1A1A26);
+	margin:0;
+}
+
+#menu{
+position: fixed;
+top: 0;
+width:100%;
+height: 60px;
+z-index:99;
+
+}
+#menu ul{
+	margin:0;
+	list-style:none;
+	background-color:#1A1A26;
+}
+
+#menu ul li{
+	display:inline;
+	
+}
+
+#menu ul li a{
+	padding: 1%;
+	display:inline-block;
+	color:white;
+	text-decoration:none;
+	font-family:Microsoft Yi Baiti;
+	font-size: 25px;
+	margin-left: 2%;
+}
+
+#menu ul li a:hover{
+	color:#A9A9A9	;
+}
+
+
+.parallax{
+  background-image: url("./img/sobre.jpg");
+  height: 550px;
+  width:100%;
+  background-attachment: fixed;
+   background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.parallax1{
+  background-image: url("./img/fauna.jpg");
+  height: 550px;
+  width:100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.parallax2{
+  background-image: url("./img/flora.jpg");
+  height: 550px;
+  width:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3{
+  background-image: url("./img/Povo.jpg");
+  height: 550px;
+  width:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulos{
+	color: white; 
+	font-family:Reem Kufi; 
+	position: absolute;
+	margin-top: -5%;
+	margin-left:5%;
+	font-size:15px;
+}
+
+
+.conteudo-left{
+  width:41%;
+  height:200px;
+  float:left;
+  font-family:Myanmar Text;
+  font-size:14px;
+  color:white;
+  text-align:justify;
+  margin-left:5%;
+  margin-top: 1%;
+
+}
+
+.conteudo-right{
+  width: 41%;
+  height:200px;
+  float:left;
+  font-family:Myanmar Text;
+  font-size:14px;
+  color:white;
+  text-align:justify;
+  margin-left:8%;
+  margin-top: 1%;
+
+
+  }
+#curi{
+	color: white; 
+	font-family:Reem Kufi; 
+	margin-left:5%;
+	font-size:30px;
+	margin-top: -30px;
+}
+
+#planeta{
+margin-left:13%;
+opacity:0.4;
+width:50%;
+
+}
+
+#mascara{
+	margin-left:50%;
+	margin-top:-10%;
+}
+
+#coisa{
+	margin-left:72%;
+	margin-top:-18%;
+}
+
+button{
+ float:right;
+	margin-top: 2%;
+background-color: #1A1A26;
+border-radius: 10px;
+font-family:Myanmar Text;
+}
+
+.myButton {
+	background-color:#4f505d;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:10px 15px;
+	text-decoration:none;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#caracteristica-fauna{
+  width: 30%;
+  float:left;
+  font-family:Myanmar Text;
+  font-size:14px;
+  color:white;
+  text-align:justify;
+  margin-left:65%;
+  margin-top:-2%;
+}
+
+.titulocoisas{
+  width: 30%;
+  float:left;
+  font-family:Parchment MF;
+  font-size:25px;
+  color:white;
+  margin-left:65%;
+  margin-top:1%;
+
+}
